@@ -1,0 +1,176 @@
+header{
+            width:1500px;
+            height:140px;
+            background-color:rgb(34,104,135);
+            position: fixed;
+            z-index: 1;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .nav>img{
+            height: 90px;
+            width: 230px;
+            padding-left: 80px;
+            padding-top: 35px;
+        }
+        .nav>ul{
+            font-size:20px ;
+            font-weight: 900;
+            display: flex;
+            gap: 30px;
+            color:aliceblue;
+            float: right;
+            padding-top:70px;
+            padding-right: 150px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white; /* Change this to your desired link color */
+            transition: color 0.3s; /* Add a smooth color transition */
+          }  
+          .nav a:hover {
+            color: #292e33; /* Change this to your desired hover color */
+          }
+          
+
+/* Style the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+        .intro>img{
+            margin-top: 140px;
+            height:500px;
+            width:1520px;
+        }
+        #heading1{
+            font-size: 50px;
+            
+        }
+        #intro2{
+            font-size: 20px;
+        }
+        #main1{
+            justify-content: left;
+            margin-left: 200px;
+        }
+        .feature {
+            border: 1px solid;
+            border-radius: 5%;
+            min-width: 190px;
+            min-height: 190px;
+            max-width: 190px;
+            max-height: 190px;
+            margin: 12px;
+            padding: 12px;
+        }
+        .feature > h4 {
+            font-size: 16px;
+            padding: 2px;
+        }
+
+        .feature > p {
+            font-size: 14px;
+            padding: 5px;
+        }
+        .section{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-left: 180px;
+            margin-right: 120px;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            
+        }
+        #super2{
+            display: flex;
+        }
+        #heading2{
+            font-size: 50px;
+            margin-left:260px;
+        }
+        #ov2{
+            font-size: 20px;
+        }
+        #main2{
+            margin-top: 50px;
+            margin-left: 450px;
+            justify-content: right;
+
+        }
+        #vision>img{
+            height:500px;
+            width:300px;            
+        }
+        #heading3{
+            font-size: 50px;
+            margin-left: 15px;
+        }
+        #om3{
+            font-size: 20px;
+        }
+        #main3{
+            justify-content: left;
+            margin-left: 200px;
+        }
+        #super3{
+            display: flex;
+        }
+        #mission>img{
+            height:340px;
+            width:360px;
+            margin-left: 200px;
+            margin-top: 90px;            
+        }
+        .recruiters-section {
+            background-image: url("images/lab8/recruiters-bg.png");
+            background-repeat: no-repeat;
+            background-size: 97%;
+            background-position: center;
+        }
+
+        .recruiters-logos {
+           display: grid;
+           grid-template-columns: auto auto auto auto;
+           margin: 2%;
+           justify-content: center;
+        }
+
+        .recruiters-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 180px;
+            max-width: 180px;
+            padding: 20px 12px;
+            margin: 20px 12px;
+            border-bottom: 1px solid;
+        }

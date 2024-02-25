@@ -1,0 +1,127 @@
+.navbar-light-blue {
+    background-color: rgb(108, 34, 135);
+}
+.nav-btn{
+    align-items: end;
+}
+.custom-input {
+    height: 20px; /* Adjust the height as needed */
+    width: 510px; /* Adjust the width as needed */
+    
+}
+.custom-navbar .navbar-nav .nav-link {
+    position: relative;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+.custom-navbar .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: translateY(-35px);
+}
+.aboutUs {
+    background-image: url("aboutUs.jpg");
+    background-size: 100%;
+    height: 460px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    position: relative; 
+}
+.aboutUstxt {
+    font-family: Proxima Nova;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.hm {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-top: 50px;
+    margin-left: 20%;
+    margin-right: 100px;
+}  
+.histmarks {
+    position: relative;
+    width: 50%;
+    margin-bottom: 0px;
+    margin-right: 1%;
+}  
+.hmh {
+    font-family: "Proxima Nova Condensed";
+    font-weight: 700;
+    font-size: 120%;
+}  
+.hmi {
+    padding-left: 3%;
+}  
+.hm-content {
+    position: absolute;
+    bottom: 40px;
+    left: 7%;
+    font-family: Proxima Nova;
+    line-height: 30px;
+}  
+.hmp {
+    padding-top: 10px;
+}  
+
+.vbkgrnd{
+    background-image: url(b1.png); 
+    background-size: 100% 130%; 
+    background-repeat: no-repeat;
+} 
+
+.cbkgrnd{
+    background-image: url(b2.png); 
+    background-size: 100% 130%; 
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#logos{
+    padding: 100px 0px 100px 350px;
+    background-image: url(b3.png); 
+    background-size: 100% 130%; 
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+#ig {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: Proxima Nova;
+    margin-top: 20px;
+    padding: 0px 0px 30px 300px;
+}
+img[title~="r1"] {
+    padding: 20px 30px 10px 30px;
+}
+img[title~="r2"] {
+    padding: 40px 30px 10px 30px;
+}
+img[title~="r3"] {
+    padding: 30px 30px 0px 30px;
+}
+.egb{
+    background-image: url(b4.png); 
+    background-size: 100% 130%; 
+    background-repeat: no-repeat;
+}
+.gn2{
+    width: 70%;
+    height: 100%;
+    margin-top: 100px;
+    background-image: url(bcgnd.png);
+    background-repeat: no-repeat;
+    background-size: 300px 330px;
+}
